@@ -310,7 +310,7 @@ nav {
     transition: all 0.2s;
   }
 
-  .submit-email:hover {
+  .submit-email:active {
     background-color: white;
     color: #28293E;
   }
