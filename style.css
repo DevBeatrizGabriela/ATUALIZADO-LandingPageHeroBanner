@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #28293E;
+}
+
+nav {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 6.5rem;
+  
+  
+}
+
+.nav-bar img {
+ max-width: 100px;
+}
+
+.nav-list li {
+  float: left;
+  display: block;
+  padding: 0 1.2rem ;
+  text-align: center; 
+  list-style-type: none;
+}
+
+.nav-item a {
+  font: 500 14px 'Poppins', sans-serif;
+  color: white;
+}
+
+.login-button button {
+  padding: 8px 22px;
+  border-radius: 5px;
+  font: 500 14px 'Poppins', sans-serif;
+  color: white;
+  background-color: #E32454;
+  border: none;
+}
+
+.login-button a {
+  color: white;
+}
+
+
+.conteudo-principal-imagem {
+  width: 50%;
+}
+
+.icon {
+  display: block;
+  
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+
+
+
+.imagens {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.imagem-1 {
+  width: 40%;
+  position: absolute;
+  
+  
+}
+
+.imagem-2 {
+  width: 40%;
+  position: absolute;
+}
+
+
+
+.conteudo {
+  padding: 6rem 0 0 6rem;
+}
+
+.texto-principal {
+  text-align: left;
+  color: white;
+  display: inline;
+}
+
+.titulo {
+  font: 900 4rem 'Poppins';
+  line-height: 4rem;
+  display: inline;
+}
+
+.subtitulo {
+  font: 200 14px 'Poppins';
+  line-height: 17px;
+  margin: 10px 0 35px 0; 
+}
+
+.subtitulo p {
+  display: inline;
+}
+
+.caixa-email {
+  display: flex;
+  
+}
+
+.input-email {
+  display: block;
+  width: 240px;
+  height: 35px;
+  background-color: transparent;
+  border: #fff 1px solid;
+  border-radius: 7px;
+  outline: none;
+  padding-left: 10px;
+  background-image: url('icons8-nova-mensagem-24.png');
+  background-position: 10px 5px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+
+.submit-email {
+  border-radius: 7px;
+  margin-left: 10px;
+  width: 70px;
+  border: none;
+  background-color: #E32454;
+  font: 600 13px 'Poppins';
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.submit-email:hover {
+  background-color: white;
+  color: #28293E;
+}
+
+
+
+
+@media screen and (max-width: 769px) {
+  .nav-bar {
+    padding: 1.8rem 4rem;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .login-button {
+    display: none;
+   
+  }
+
+  .mobile-menu {
+    background-color: rgb(214, 236, 255);
+    padding: 1.5rem 0;
+    margin-bottom: 2em;
+
+  }
+
+  .mobile-menu ul {
+    display: flex;
+        flex-direction: column;
+        text-align: center;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+  }
+
+  .mobile-menu ul a {
+    color: #28293E;
+  }
+
+  .mobile-menu ul a:hover {
+    color: #E32454;
+  }
+
+  .mobile-menu .cabecalho-menu-item {
+    display: block;
+    
+
+  }
+
+  .mobile-menu .login-button {
+    display: block;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    transition: all 0.2s;
+  }
+
+  .login-button button:hover {
+    background-color: white;
+    color: #28293E;
+  }
+
+
+
+  .mobile-menu .login-button button {
+    width: 70%;
+  
+  }
+  
+  .open {
+    display: block;
+  }
+
+  
+
+  .imagens {
+    display: flex;
+    justify-content: center;
+    margin-left: 2.6rem;
+  }
+
+  .imagem-1 {
+    width: 80%;
+    position: relative;
+    
+  }
+
+  .imagem-2 {
+    width: 80%;
+    position: absolute;
+  
+  }
+
+  main {
+    margin: 1rem 2.5rem;
+    
+  }
+
+  .texto-principal {
+    text-align: center;
+    color: white;
+    
+  }
+
+  .titulo {
+    font: 900 2.8rem 'Poppins';
+    line-height: 45px;
+    display: block;
+  }
+
+  .subtitulo {
+    font: 200 14px 'Poppins';
+    line-height: 17px;
+    margin: 10px 0 35px 0; 
+  }
+
+  .caixa-email {
+    display: flex;
+    justify-content: center;
+  }
+
+  .input-email {
+    display: block;
+    width: 240px;
+    height: 35px;
+    background-color: transparent;
+    border: #fff 1px solid;
+    border-radius: 7px;
+    outline: none;
+    padding-left: 45px;
+  }
+
+  .submit-email {
+    border-radius: 7px;
+    margin-left: 10px;
+    width: 14%;
+    border: none;
+    background-color: #E32454;
+    font: 600 13px 'Poppins';
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .submit-email:hover {
+    background-color: white;
+    color: #28293E;
+  }
+
+  .arroba {
+    display: block;
+    margin-top: 80px;
+    
+  }
+
+  .arroba p {
+    text-align: center;
+    font: 200 12px 'Poppins';
+    font-style: italic;
+    color: white;
+  }
+
+  .conteudo {
+    padding: 0;
+  }
+}
