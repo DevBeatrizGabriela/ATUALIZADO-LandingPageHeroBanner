@@ -41,13 +41,14 @@ nav {
   padding: 8px 22px;
   border-radius: 5px;
   font: 500 14px 'Poppins', sans-serif;
-  color: white;
+  
   background-color: #E32454;
   border: none;
 }
 
 .login-button a {
-  color: white;
+  color: #fff;
+  
 }
 
 
@@ -215,6 +216,10 @@ nav {
 
   }
 
+  .login-button button {
+    color: #fff;
+  }
+
   .mobile-menu .login-button {
     display: block;
     padding: 0;
@@ -225,9 +230,10 @@ nav {
   }
 
   .login-button button:hover {
-    background-color: white;
-    color: #28293E;
+    background-color: #28293E;
+    color: white;
   }
+
 
 
 
@@ -305,6 +311,7 @@ nav {
     width: 14%;
     border: none;
     background-color: #E32454;
+    color: white;
     font: 600 13px 'Poppins';
     cursor: pointer;
     transition: all 0.2s;
