@@ -8,3 +8,13 @@
           document.querySelector('.icon').src = "iconx22.png";
       }
   }
+
+  var myButton = document.getElementsByClassName('submit-email')[0]
+
+  myButton.addEventListener("touchstart", function(){
+    myButton.classList.add("submit-emailActive")
+  })
+
+  myButton.addEventListener("touchend", function(){
+    myButton.classList.remove("submit-emailActive")
+  })

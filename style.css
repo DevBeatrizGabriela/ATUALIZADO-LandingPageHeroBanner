@@ -322,6 +322,11 @@ nav {
     color: #28293E;
   }
 
+  .submit-emailActive {
+    background-color: white;
+    color: #28293E;
+  }
+
   .arroba {
     display: block;
     margin-top: 80px;
