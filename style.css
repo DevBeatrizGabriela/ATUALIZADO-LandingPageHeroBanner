@@ -212,6 +212,7 @@ nav {
 
   .mobile-menu .cabecalho-menu-item {
     display: block;
+    margin: 0;
     
 
   }
@@ -223,24 +224,31 @@ nav {
   .mobile-menu .login-button {
     display: block;
     padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     margin-top: 10px;
-    transition: all 0.2s;
+    
   }
 
-  .login-button button:hover {
-    background-color: #28293E;
+
+  .login-button-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .login-button-nav button {
+    padding: 8px 22px;
+    border-radius: 5px;
+    font: 500 14px 'Poppins', sans-serif;
     color: white;
+    background-color: #E32454;
+    border: none;
   }
 
+ 
 
-
-
-  .mobile-menu .login-button button {
-    width: 70%;
-  
-  }
   
   .open {
     display: block;
@@ -286,7 +294,7 @@ nav {
   .subtitulo {
     font: 200 14px 'Poppins';
     line-height: 17px;
-    margin: 10px 0 35px 0; 
+    margin: 10px 0 25px 0; 
   }
 
   .caixa-email {
@@ -301,14 +309,17 @@ nav {
     background-color: transparent;
     border: #fff 1px solid;
     border-radius: 7px;
+    color: white;
     outline: none;
     padding-left: 45px;
   }
 
+
+
   .submit-email {
     border-radius: 7px;
     margin-left: 10px;
-    width: 14%;
+    width: 6em;
     border: none;
     background-color: #E32454;
     color: white;
@@ -317,13 +328,23 @@ nav {
     transition: all 0.2s;
   }
 
-  .submit-email:hover {
-    color: #28293E;
+.submit-email a:active {
+  color: #E32454;
+}
+  .submit-emailActive {
+    display: none;
+    border-radius: 7px;
+    margin-left: 10px;
+    width: 6em;
+    border: none;
+    background-color: #E32454;
+    color: white;
+    font: 600 13px 'Poppins';
+    cursor: pointer;
   }
 
-  .submit-emailActive a:hover {
-
-    color: #28293E;
+  .submit-email a:visited {
+    color: white;
   }
 
   .arroba {
@@ -347,13 +368,9 @@ nav {
     color: white;
   }
 
-  .submit-email a:visited {
-    color: white;
-  }
-
-  .login-button a{
+  .login-button-nav a{
   width: 50%;
   margin: 0 auto;
-  margin-right: 7.3em;
+text-align: center;
   }
 }

@@ -9,13 +9,28 @@
       }
   }
 
-  var myButton = document.querySelector('.submit-email')
-  var ActiveButton = document.querySelector('.submit-emailActive:active')
+// --------------------------------------------------------- //
 
-  myButton.addEventListener('touchstart', function() {
-    ActiveButton[index].style.display = 'block'
+let button = document.querySelector('.submit-email')
+
+button.addEventListener('touchstart', function() {
+    button.style.backgroundColor = '#fff'
 } )
 
-myButton.addEventListener('touchend', function() {
-    ActiveButton[index].style.color = 'none'
+button.addEventListener('touchend', function() {
+    button.style.backgroundColor = '#E32454'
+} )
+
+// --------------------------------------------------------- //
+
+let buttonBar = document.querySelector('.login-button2')
+
+buttonBar.addEventListener('touchstart', function() {
+    buttonBar.style.backgroundColor = '#28293E'
+    buttonBar.style.color = '#fff'
+} )
+
+buttonBar.addEventListener('touchend', function() {
+    buttonBar.style.backgroundColor = '#E32454'
+    buttonBar.style.color = '#fff'
 } )
