@@ -317,13 +317,12 @@ nav {
     transition: all 0.2s;
   }
 
-  .submit-email:active {
-    background-color: white;
+  .submit-email:hover {
     color: #28293E;
   }
 
-  .submit-emailActive {
-    background-color: white;
+  .submit-emailActive a:hover {
+
     color: #28293E;
   }
 
@@ -342,5 +341,19 @@ nav {
 
   .conteudo {
     padding: 0;
+  }
+
+  .submit-email a {
+    color: white;
+  }
+
+  .submit-email a:visited {
+    color: white;
+  }
+
+  .login-button a{
+  width: 50%;
+  margin: 0 auto;
+  margin-right: 7.3em;
   }
 }

@@ -9,12 +9,13 @@
       }
   }
 
-  var myButton = document.getElementsByClassName('submit-email')[0]
+  var myButton = document.querySelector('.submit-email')
+  var ActiveButton = document.querySelector('.submit-emailActive:active')
 
-  myButton.addEventListener("touchstart", function(){
-    myButton.classList.add("submit-emailActive")
-  })
+  myButton.addEventListener('touchstart', function() {
+    ActiveButton[index].style.display = 'block'
+} )
 
-  myButton.addEventListener("touchend", function(){
-    myButton.classList.remove("submit-emailActive")
-  })
+myButton.addEventListener('touchend', function() {
+    ActiveButton[index].style.color = 'none'
+} )
